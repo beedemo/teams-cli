@@ -1,0 +1,64 @@
+{
+    "version": "1",
+    "data": [
+        {
+            "name": "basic",
+            "displayName": "Basic",
+            "description": "The minimalistic setup.",
+            "plugins": [
+                "bluesteel-master",
+                "cloudbees-folders-plus",
+                "cloudbees-jsync-archiver",
+                "cloudbees-monitoring",
+                "cloudbees-nodes-plus",
+                "cloudbees-ssh-slaves",
+                "cloudbees-support",
+                "cloudbees-workflow-template",
+                "credentials-binding",
+                "email-ext",
+                "git",
+                "git-client",
+                "github-branch-source",
+                "infradna-backup",
+                "mailer",
+                "operations-center-analytics-reporter",
+                "operations-center-cloud",
+                "pipeline-model-definition",
+                "pipeline-utility-steps",
+                "notification-api",
+                "pipeline-event-step",
+                "operations-center-notification"
+                
+            ],
+            "default": true
+        },
+        {
+            "name": "workshop",
+            "displayName": "Workshop Recipe",
+            "description": "Includes plugins needed to complete the workshop.",
+            "plugins": [
+                "bluesteel-master",
+                "cloudbees-folders-plus",
+                "cloudbees-jsync-archiver",
+                "config-file-provider",
+                "cloudbees-aws-cli",
+                "cloudbees-support",
+                "cloudbees-workflow-template",
+                "findbugs",
+                "gradle",
+                "github-branch-source",
+                "infradna-backup",
+                "jira",
+                "junit",
+                "pipeline-maven",
+                "tasks",
+                "warnings",
+                "pipeline-utility-steps",
+                "notification-api",
+                "pipeline-event-step",
+                "operations-center-notification"
+            ],
+            "default": false
+        }
+    ]
+}
